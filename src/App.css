@@ -1,0 +1,40 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+html{
+  font-size:62.5%;
+  font-family:"urbanist";
+}
+
+body{
+  background-color: black;
+}
+
+h1,h2,h3,h4,h5{
+  color: #fff;
+}
+
+p,
+li,
+a,
+button{
+  font-size: 1.7rem;
+  letter-spacing:0.1rem;
+  line-height:1.6;
+  color:#fff;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  color:#000;
+
+  &:hover {
+    color:#2e86c1;
+  }
+}
