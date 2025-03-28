@@ -59,5 +59,40 @@ a{
 }
 
 
+header{
+  height:8rem;
+  box-shadow:rgba(33,35,38,0.1) 0px 10px 10px -10px;
+  background-color: #202020;
+  width:100%;
+
+  &.container{
+    height:8rem;
+  }
+}
+
+.navbar-grid{
+  grid-template-columns: 5.5fr 1fr;
+  height:8rem;
+  padding: 1rem 0;
+}
+
+nav ul{
+  display: flex;
+  justify-content: flex-end;
+  padding:1rem 0;
+  gap:3rem;
+  color:#fff;
+
+
+
+  & li a {
+    color:#fff;
+    text-decoration: none;
+  }
+}
+
+.ham-menu{
+  display: flex;
+}
 
 
