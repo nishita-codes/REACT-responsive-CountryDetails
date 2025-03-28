@@ -38,3 +38,26 @@ a{
     color:#2e86c1;
   }
 }
+
+.container{
+  max-width:90rem;
+  margin:auto;
+}
+
+.grid{
+  display: grid;
+}
+
+.grid-two-cols{
+  grid-template-columns: repeat(2,1fr);
+}
+.grid-three-cols{
+  grid-template-columns: repeat(3,1fr);
+}
+.grid-four-cols{
+  grid-template-columns: repeat(4,1fr);
+}
+
+
+
+
