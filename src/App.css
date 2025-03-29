@@ -19,12 +19,12 @@ h1,h2,h3,h4,h5{
 
 p,
 li,
-a,
-button{
+a {
   font-size: 1.7rem;
   letter-spacing:0.1rem;
   line-height:1.6;
   color:#fff;
+  
 }
 
 li{
@@ -40,7 +40,7 @@ a{
 }
 
 .container{
-  max-width:90rem;
+  max-width:120rem;
   margin:auto;
 }
 
@@ -94,7 +94,43 @@ nav ul{
 .ham-menu {
   display: flex;
 }
+.hero-section .container{
+  padding:3.2rem;
+  margin:-4rem auto;
+  gap:20.4rem;
+}
 
+.heading-xl{
+  margin-top: 10rem;
+  font-size: 4rem;
+  font-family: inherit;
+}
+.paragraph{
+  margin:3.2rem 0;
+}
+.banner-image{
+  width: 50rem;
+  margin-top: 5rem;
+}
 
+@media screen and (max-width:430px){
+  .hero-content{
+    order:1;
+  }
+
+  .container .banner-image{
+    width:80%;
+    order:0;
+  }
+}
+button{
+  background-color:#202020;
+  color:#fff;
+  letter-spacing: 0.2rem;
+  width:18rem;
+  height: 3rem;
+  border-radius: 1rem;
+  border:1px solid white;
+}
 
 
