@@ -60,13 +60,13 @@ a{
 
 
 header{
-  height:8rem;
+  height:10rem;
   box-shadow:rgba(33,35,38,0.1) 0px 10px 10px -10px;
   background-color: #202020;
   width:100%;
 
   &.container{
-    height:8rem;
+    height:10rem;
   }
 }
 
@@ -75,19 +75,25 @@ header{
   height:8rem;
   padding: 1rem 0;
 }
-
+.Logo{
+  margin-top:1.5rem;
+}
 nav ul{
   display: flex;
   justify-content: flex-end;
+  align-items: center;
   padding:1rem 0;
   gap:3rem;
   color:#fff;
+  margin-top:1.3rem;
+  
 
 
 
   & li a {
     color:#fff;
     text-decoration: none;
+    font-size:2rem;
   }
 }
 
@@ -97,20 +103,20 @@ nav ul{
 .hero-section .container{
   padding:3.2rem;
   margin:-4rem auto;
-  gap:20.4rem;
+  gap:15.4rem;
 }
 
 .heading-xl{
-  margin-top: 10rem;
-  font-size: 4rem;
+  margin-top: 20rem;
+  font-size: 3.5rem;
   font-family: inherit;
 }
 .paragraph{
   margin:3.2rem 0;
 }
 .banner-image{
-  width: 50rem;
-  margin-top: 5rem;
+  width: 55rem;
+  margin-top: 15rem;
 }
 
 @media screen and (max-width:430px){
@@ -148,7 +154,7 @@ button{
 .container-title{
   text-align: center;
   padding: 0 !important;
-  margin-top: 5rem;
+  margin-top: 14rem;
   margin-bottom: 40px;
   font-size: 40px;
   color:#fff;
@@ -232,13 +238,23 @@ button{
 /* contact section */
 
 .section-contact{
-  margin: 0 auto 9rem auto;
+  margin:9rem auto;
 
   & hr {
     border-color: rgba(255, 255, 255, 0.6);
   }
 }
-
+.container-title1{
+  text-align: center;
+  padding: 0 !important;
+  margin-bottom: 40px;
+  font-size: 40px;
+  color:#fff;
+  font-weight:  600;
+  line-height: 60px;
+  margin-bottom:3rem;
+  margin-top:-6rem;
+}
 .contact-wrapper{
   display: flex;
   justify-content: center;
