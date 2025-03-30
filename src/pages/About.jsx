@@ -12,8 +12,18 @@ export const About = () => {
             <div className="container bg-blue-box">
                 <p className="card-title">India</p>
                 <p>
-                    <span className=""></span>
+                    <span className="card-description">Capital:</span>
+                    Delhi
                 </p>
+                <p>
+                    <span className="card-description">population:</span>
+                1468778234
+                </p>
+                <p>
+                    <span className="card-description">interestingFacts:</span>
+                    We Love India
+                </p>
+    
             </div>
         </div>
       </div>
