@@ -288,4 +288,58 @@ button{
 }
  
 
+/* footer-section */
+.footer-section{
+  height:10rem;
+  box-shadow:rgba(33,35,38,0.1) 0px 10px 10px -10px;
+  background-color: #202020;
+  width:100%;
+}
+
+.footer-contact{
+  height: 10rem;
+  display: flex;
+   gap:2.4rem;
+  align-items: center;
+
+  & .icon {
+    color: #3a4ed5;
+    font-size: 3.6rem;
+
+    & .icon:nth-child(2) {
+      rotate: 90deg;
+    }
+  }
+}
+
+.footer-contact-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+
+  & p {
+    font-size: 1.5rem;
+    color: #757575;
+  }
+
+  & p:first-child {
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: #fff;
+  }
+}
+
+.copyright-area {
+ background: #2b2a2a;
+}
+
+.copyright-text{
+  margin-left:45rem;
+  
+  & p{
+  font-size: 14px;
+  }
+}
+
+
 
