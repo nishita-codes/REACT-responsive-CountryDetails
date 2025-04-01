@@ -31,8 +31,7 @@ export const Footers = () => {
        
        <div className="copyright-area">
          <div className="container">
-           
-             <div className="copyright-text">
+           <div className="copyright-text">
                <p>
                  Copyright &copy; 2024, All Right Reserved.
                </p>
