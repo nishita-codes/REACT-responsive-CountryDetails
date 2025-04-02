@@ -337,9 +337,21 @@ button{
   margin-left:45rem;
   
   & p{
-  font-size: 10px;
+  font-size: 14px;
   }
 }
+
+
+/* country section */
+.loader {
+  width: 50px;
+  padding: 8px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: #25b09b;
+  animation: l3 1s infinite linear;
+}
+
 
 
 
