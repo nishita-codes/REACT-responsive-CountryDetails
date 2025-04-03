@@ -352,6 +352,59 @@ button{
   animation: l3 1s infinite linear;
 }
 
+.country-card {
+  margin-top: 3.2rem;
+}
+.country-section {
+  margin: 6.4rem auto 9.6rem auto;
+  & .grid {
+    gap: 3.2rem;
+    max-width: 132rem;
+    margin: auto;
+  }
+
+  & img {
+    width: 100%;
+    max-width: 50rem;
+    height: 16rem;
+  }
+}
+
+/* indivisual card container  */
+.country-details-card {
+  max-width: 100%;
+  margin: 3rem auto;
+  box-shadow: rgba(168, 163, 184, 0.15) 0px 48px 100px 0px;
+
+  & .container-card {
+    & .grid {
+      align-items: center;
+    }
+
+    & img {
+      width: 100%;
+      max-width: 30rem;
+      margin-bottom: 0;
+      height: auto;
+      justify-self: center;
+      align-items: center;
+      box-shadow: rgba(255, 255, 255, 0.1) 0px 48px 100px 0px;
+    }
+  }
+
+  & .infoContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+  }
+
+  & .country-card-backBtn {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
 
 
 

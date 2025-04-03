@@ -1,5 +1,5 @@
 import { useEffect, useState, useTransition } from "react";
-import { useParams } from "react-router-dom"
+import { NavLink, useParams } from "react-router-dom"
 import { getCountryIndData } from "../../api/PostApi";
 import { Loader } from "../UI/Loader";
 
@@ -20,7 +20,7 @@ export const CountryDetails = () =>{
        },[]); 
    
        if(isPending) return <Loader />;
-   console.log(params);
+  console.log(params);
    return (
    <section className="card country-details-card container">
    <div className="container-card bg-white-box">
