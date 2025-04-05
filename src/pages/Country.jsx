@@ -18,12 +18,23 @@ export const Country = () => {
     },[]); 
 
     if(isPending) return <Loader />;
+
+    // here is the main logic
+    const searchCountry = (country) => {
+     if(search){
+        return country.name.common.toLowerCase().includes(search.toLowerCase());
+     }
+     return country;
+    };
+    
+
+    const filterCountries = countries.filter((country) => searchCountry(country));
     return (
         <section className="country-section">
 
             <SearchFilter  search={search} setSearch={setSearch} filter={filter} setFilter={setFilter} />
             <ul className=" container grid grid-four-cols">{
-                countries.map((curCountry , index) =>{
+                filterCountries.map((curCountry , index) =>{
                     return <CountryCard country ={curCountry} key={index} />
                  })
                 }</ul>

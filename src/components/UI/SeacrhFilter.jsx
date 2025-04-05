@@ -1,14 +1,16 @@
 export const SearchFilter = ({search , setSearch,filter,setFilter}) =>{
 
     const handleInputChange =(event)=>{
+        event.preventDefault();
 setSearch(event.target.value);
     };
 
     const handleSelectChange =(event)=>{
+        event.preventDefault();
         setFilter(event.target.value);
     };
 
-    
+
     return <section className="section-searchFilter container">
         <input type="text" placeholder="search" value={search} on onChange={handleInputChange} />
 
