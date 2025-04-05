@@ -8,7 +8,8 @@ export const Country = () => {
     const [isPending, startTransition] = useTransition();
     const [countries, setCountries] = useState([]);
 
-    const[search,setSearch]= useState("all");
+    const[search,setSearch]= useState();
+    const[filter,setFilter]=useState("all");
      
     useEffect(() => {
         startTransition(async() => {
@@ -28,7 +29,12 @@ export const Country = () => {
     };
     
 
-    const filterCountries = countries.filter((country) => searchCountry(country));
+    const filterRegion =(country) =>{
+        if(filter === "all") return country;
+        return country.region === filter;
+    }
+
+    const filterCountries = countries.filter((country) => searchCountry(country) && filterRegion(country));
     return (
         <section className="country-section">
 

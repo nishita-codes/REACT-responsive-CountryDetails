@@ -14,7 +14,7 @@ setSearch(event.target.value);
     return <section className="section-searchFilter container">
         <input type="text" placeholder="search" value={search} on onChange={handleInputChange} />
 
-        <div>
+        <div className="select-country">
             <select name="" id="" className="select-section" value={filter} onChange={handleSelectChange}>
                 <option value="all">All</option>
                 <option value="Africa">Africa</option>
